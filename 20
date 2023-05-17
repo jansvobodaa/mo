@@ -1,1 +1,110 @@
+20. Software – rozdělení a funkce
 
+
+Software
+
+-------------------------
+
+♦ Je souhrnný název pro všechny počítačové programy používané v počítači, které provádějí nějakou činnost.
+♦ To znamená, že software je v počítači vše, co není hardware (tj. vše kromě fyzických součástí počítače).
+♦ V tomto případě zahrnujeme mezi software i data, která typicky neprovádějí žádnou činnost, ale data popisují: obrázek, textový dokument a podobně.
+♦ Označení software se někdy vztahuje jen na programy, ale může se vztahovat i na data.
+
+“Autorské dílo” => podléhá autorským právům a uživatelům zprostředkováno pomocí licencí
+
+---------------------------
+
+Základní rozdělení softwaru
+
+Podle funkce můžeme software rozdělit na několik skupin.
+
+Systémový software – umožňuje efektivní používání počítače
+  firmware – software obsažený v hardware (BIOS, firmware vstupně-výstupních zařízení jako tiskárny, CD/DVD mechaniky, grafické a zvukové karty, …)
+
+  operační systém – spravuje počítač, vytváří prostředí pro programy
+  jádro operačního systému – (včetně ovladačů zařízení)
+  pomocné systémové nástroje – pro správu operačního systému (formátování disků, nastavení oprávnění, utility, …)
+  
+-----------------
+
+Aplikační software – umožňuje uživateli vykonávat nějakou užitečnou činnost, například:
+  kancelářské aplikace: textový editor, tabulkový procesor, prezentační program
+  grafické programy: vektorový grafický editor, bitmapový grafický editor, CAD, Video editor(Davinci Resolve)
+  vývojové nástroje: vývojové prostředí, překladač
+  multimediální software: přehrávače digitálního zvuku a videa apod.
+  zábavní software: počítačové hry.
+  atd. (různá rozdělení podle druhu, účelu, vzhledu, funkčnosti)
+  
+-----------------
+
+Ovladač, knihovna, BIOS
+  Ovladač zařízení
+    ♦ je v označení pro software (část kódu), který umožňuje operačnímu systému pracovat s hardwarem.
+    ♦ Některé ovladače jsou součástí operačního systému, jiné jsou distribuovány s hardwarem (např. na CD-ROM, grafické ovladače, periferní ovladače(custom ovladač pro periferie - Steelseries GG, Razer Synapse atd.)).
+  Knihovna ( library)
+    ♦ je v informatice označení pro soubor funkcí a procedur (v objektovém programování též objektů, datových typů a zdrojů), který může být sdílen více počítačovými programy. ♦ Knihovna usnadňuje programátorovi tvorbu zdrojového kódu tím, že umožňuje použít již vytvořený kód i v jiných programech. (statické i dynamické)
+    ♦ Usnadnění tvorby zdroj.kódu, použitím již vytvořeným kódem i v jiných programech
+    ♦ Pomocí API (aplikační rozhraní) – názvy fcí, předávané parametry, návratové hodnoty
+    ♦ Dělení podle vazby na program – statické a dynamické a podle práce s kódem knihovny v operační paměti sdílené či nesdílenéBIOS ( Basic Input-Output System)
+    ♦ vykonává základní vstupně-výstupní funkce pro počítače IBM PC kompatibilní a představuje vlastně firmware pro osobní počítače.
+    ♦ V současné době se BIOS používá hlavně při startu počítače pro inicializaci a konfiguraci připojených hardwarových zařízení a následnému spuštění operačního systému, kterému je pak předáno další řízení počítače. (Dnes UEFI)
+    ♦ Při startu PC k inicializaci a konfiguraci připojených hardwarových zařízení, následnému spuštění OS, ten poté převezme řízení PC♦  Prg.kód BIOSu se nachází na zákl.desce ve stálé paměti typu ROM, EEPROM (přeprogramovatelná) nebo na flash paměti (možno jednodušše aktualizovat)
+    
+--------------------
+
+Rozdělení softwaru dle licencí
+
+    Shareware – jde o zkušební verzi, jinak placeného softwaru. Mívá omezené některé funkce, mnohdy i dobu funkčnosti.
+
+    Trial – program má časově omezenou licenci. Zpravidla to bývá 30 dní. Po uplynutí této doby obvykle přestane fungovat. Dál jej můžete používat jen po zaplacení plné verze.
+
+    Public domain – jedná se o software, u kterého se jeho tvůrci dobrovolně vzdali svých autorských práv. Takovéto programy můžete jakkoliv upravovat i volně šířit.
+
+    Demo – funkčně omezená verze programu, nejčastěji se setkáváme s demoverzemi her.
+
+    GPL – jde o obecně veřejnou licenci. Tento software můžete volně sdílet i upravovat.
+
+    Opensource – tyto programy bývají většinou zdarma. Mají přístupné zdrojové kódy a můžete je tak upravovat.
+
+    Freeware – jde o programy, které jsou zdarma. Ale pozor, někdy ne tak úplně. Některé freeware se např. nemohou používat ke komerčním účelům (př. Teamviewer - lze užít bez license pro soukromé účely, nikoliv pro komerční)
+
+    Plná verze zdarma – nepleťte si tyto programy s freeware, tento software nelze volně šířit, jedná se o neomezené komerční programy.
+
+    Adware – programy bývají zdarma, ovšem v programu se zobrazuje reklama (většinou stahována z internetu).
+
+---------------
+
+Škodlivý software
+
+  ♦  Provádí nezamýšlenou činnost
+  ♦  Programátorská chyba = zranitelnost, vznik při vytváření programu
+
+    Malware = “zákeřný software” = souhrný název pro počítačové viry, spyware, trojské koně, adware
+
+    Počítačový vir = šíří se bez vědomí uživatele, pro množení -> uložení v jiných souborech/dokumentech, množí se jako biologický virus => “infekce”
+
+    Spyware = využívá internet k odesílání dat z PC/mobilu… – čísla kreditek apod.
+
+    Trojský kůň = skrytá část programu/aplikace s funkcí, vypadá jako užitečný program, nedokáže sám infikovat ostatní počítače/programy, k tomu slouží např.červi - "worms" př. ILOVEYOU atd.
+
+    Adware = reklamní aplikace, bannery, pop-up okna, změna domovské stránky v IE…
+
+    Počítačový červ = automaticky rozesílá své kopie na další PC, poté převezme kontrolu, komunikace užívá ke svému šíření
+
+    ♦  Tvůrci zneužijí chyb ostatních software či neznalosti obsluhy
+    ♦  Antivirové programy, antispyware a další programy pro eliminaci škodlivého s.
+  
+  --------------
+
+Kancelářský software
+
+  ♦ Software (či skupina = kancelářský balík), s propojením jednotlivých aplikací
+      – Textový procesor - Notepad++
+      – Tabulkový procesor - MS Excel, LibreOffice Calc
+      – Nástroj na tvorbu prezentací - MS Powerpoint, Google slides
+      – Databázový systém - MS Access, MS SQL Server
+      – někdy i groupwarové nástroje (pro spolupráci – např.elektronická pošta atd.) a grafické editory
+
+  ♦ Dnes je standardem Microsoft Office, dále v podobě open source – Open Office, Libre Office, Lotus SmartSuite, Apple – Pages (iWork) a online Google Docs, ThinkFree Office
+  
+  --------------
