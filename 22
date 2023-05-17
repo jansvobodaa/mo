@@ -1,0 +1,112 @@
+22. 
+
+http://www.minh.4fan.cz/ivt/mb1.jpg
+
+-------------------------------------------------------------
+
+Základní deska (motherboard) - představuje základní hardware většiny počítačů. Hlavním účelem základní desky je propojit jednotlivé součástky počítače do fungujícího celku a poskytnout jim elektrické napájení.
+  Postupem času se funkce základní desky rozšiřovala v tom, že sama začínala obsahovat některé součástky počítače, které se do ní dříve musely zapojovat zvlášť
+
+Procesor - základní součástí počítače. V současné době máme pod tímto pojmem většinou na mysli mikroprocesor, nebo také CPU, anglicky Central Processing Unit), tedy velmi složitý číslicový integrovaný obvod, 
+  provádějící strojové instrukce, ze kterých je složen počítačový program umístěný v operační paměti počítače
+
+Paměťové karty - (RAM - Random Access Memory) elektronická paměť, která umožňuje přístup k libovolné části ve stálém čase bez ohledu na její fyzické umístění; volatilní – při vypnutí napájení se informace smaže
+
+Pevný disk - (HDD - Hard Disk Drive) zařízení, které se používá v počítačích a ve spotřební elektronice (např. videorekordéry) k dočasnému nebo trvalému uchovávání většího množství dat pomocí magnetické indukce
+
+Grafické karty, zvuková karta, síťová karta, TV karta, optická mechanika, USB výstupy
+
+----------------------------------
+
+
+Co je to hardware - vše co se nedá ukradnout po síti (joke haha)
+  HW je vše na co si můžeme sáhnout
+  je to opak softwaru
+  veškeré fyzicky existující technické vybavení počítače
+
+Dělíme:
+    1. Interní - vnitřní, vše co je uvnitř casu (procesor, MB, disk)
+    2. Externí - vnější (myš, klávesnice, kamera)
+    
+-------------------------------------------
+
+ZÁKLADNÍ KOMPONENTY PC (=personal computer) - Bez kterých nebude PC fungovat
+
+ZDROJ
+  -dodává ze sítě střídavé napětí a zpracovává ho na nižší napětí potřebné k napájení komponentů PC
+  - jeho součástí je i větrák, který ochlazuje zdroj a částečně i vnitřní prostor počítače (u NTB-baterka a nabíječka)
+  - Napájení MB, HDD, mechaniky
+
+MB = MotherBoard, MainBoard
+  -Základní deska zajišťuje komunikaci mezi dalšími komponenty PC + slouží pro jejich uchycení
+  -Nepřímé napájení (=přes MB) grafiky, RAM, procesoru...
+  -najdeme zde SOCKET = patice pro procesor, sloty (konektory) pro RAM a přídavné karty
+  - občas (u starších typů především) je zde integrovaná síťová karta či zvuková, občas i grafická (ale nižší výkon, jen pro základní použití)
+  - obsahuje paměť ROM= zde je nahraný spouštěcí software BIOS, slouží k oživení PC hned po spuštění
+  - CHIPSET = čipová sada, určuje jaký prosecor a RAM je možné k MB připojit, komunikace na MB, jsou zde zabudovány nejdůležitější integrované obvody,
+      buď jeden nebo dva čipy (northbridge - systémový řadič(komunikace mezi CPU a RAM - blíž k procesoru, southbridge)
+
+----------------------------------------------
+
+1. Procesor pod tím, patice = socket, vetrák + pasivní chlazení
+2. Northbridge
+3. Southbridge
+4. BIOS = ROM paměť
+5. Baterka (nemusítě zmiňovat ale jestli padne otázka - udržují chod hodin, když je vypnutý PC. Kdyžtak dohledejte na netu)
+6. Konektory na připojení karet - grafika a tak
+7. Sloty na RAM
+8. Konektory na napájení desky + napojení HDD - hore plus modrá jsou ATA sběrnice (dnes se používají SATA konektory = koukněte na net), to béžové
+9. Integrovaná zvuková karta - dají se do toho strčit sluchátka a bedničky, poznáte ne? 10. Nepamatuji si, co to je za konektor, jestli to není konektor k připojení monitoru (VGA), tak tiskárna
+
+---------------------
+
+RAM - Random Access Memory, paměť s náhodným přístupem
+  - operační paměť, průběžné ukládání instrukcí a dat, se kterými PC právě pracuje
+  -závislá na dodávce el. Energie = vypnu PC data se ztratí
+  -důležitý je výkon RAM - kolik je schopna zpracovat změn za sekundu v Hz
+  - důležité je chápat rozdíl mezi HDD a RAM
+  
+-------------------  
+  
+PROCESOR
+- CPU = central processing unit
+-,mozek PC", dost energeticky náročné, je třeba výkonného větráku + chladič (pasivní chlazení) u vodního chlazení uvnitř není voda ale gelová emulze!!
+- bez chladiče se za chvíli přepálí, ale fungovat bude bez něj
+-zasazen do SOCKETU = PATICE = konektor pro procesor, většina s pinama (nožičky, jehličky), ale mohou být i kontaktní plošky
+-provádí základní aritmetické a logické operace systému
+-výkonnost je daná typem frekvence = jednotka pro zpracování procesu CPU, jedna změna z 1 na 0 nebo obráceně
+1 Hz = 1 změna za sek... 2,5 GHz= 2 500 000 000 změn za sek
+OMEZENO instrukční sadou
+- 32 bitů = za 1 změnu 4 byty
+- 64 bitů = za 1 změnu 8 bytů
+Další interní komponenty PC
+
+-----------------------
+
+GRAFICKÁ KARTA
+-umožňuje připojení monitoru, zpracovává obraz
+-buď integrovaná na MB, ale dnes už spíše externí (větší výkon)
+-pro připojení monitoru VGA - analog i digitál (VGA-DVI)
+CRT monitory přes analog - ty velké těžké krabice s prohlým displayem
+LCD - obojí, záleží na typu... více si řekneme u monitorů
+
+---------------------------
+
+ZVUKOVÁ KARTA
+- vstup a výstup zvuku, dnes najdeme na MB + přídavné externí pro rozdělení zvuků (do sluchátek třeba hra a do repráků hudba v jeden moment)
+SÍŤOVÁ KARTA
+-komunikace PC s okolím pomocí počítačové sítě, dnes součástí MB (NAJDĚTE SI NA MB LAN KONEKTOR, jestli nevíte, jak vypadá LAN, googlete)
+pozadí
+
+--------------------
+
+HDD
+*v následující otázce (stačí říct jen úvod)
+CD/DVD mechanika
+-optické mechaniky, vypalovačky, dříve i DISKETOVÉ JEDNOTKY, ale s příchodem CD zůstaly v
+Další komponenty: telefonní modemy, wifi karty, přídavné čtečky
+
+SBĚRNICE DAT
+- jsou ve slotech, přenos dat a řídících povelů (tam i zpět!), sbírají data - řídí se protokoly
+
+--------------
