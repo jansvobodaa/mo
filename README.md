@@ -1,4 +1,5 @@
 odkazy: https://it-slovnik.cz/
+        https://editit.wordpress.com/category/informatika/
 
 
 1. Programování - Datové typy a pole
